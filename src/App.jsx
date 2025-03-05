@@ -1,11 +1,10 @@
 import React from 'react'
 import Hero from "./components/Hero"
-// import Navbar from './components/Navbar'
 import Features from './components/Features'
 import Story from './components/Story'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
-import Aboutsection from './components/AboutSection'
+import AboutSection from './components/AboutSection'
 import Navbar from './components/Navbar'
 
 
@@ -15,7 +14,7 @@ const App = () => {
     <main className='relative min-h-screen w-screen overflow-x-hidden'>
       <Navbar/>
       <Hero/>
-      <Aboutsection />
+      <AboutSection />
       <Features/>
       <Story/>
       <Contact/>
